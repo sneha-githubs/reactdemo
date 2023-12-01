@@ -1,0 +1,98 @@
+:root{
+    --primary-color: #1E88E5;
+    --heading-color: #131313;
+}
+a , Link {
+color: unset;
+text-decoration: none;
+}
+section{
+    padding: 50px 0px;
+}
+
+header.header {
+    background-color:  var(--primary-color);
+}
+.container{
+    width: 100%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 15px;
+    justify-content: space-between;
+}
+.logo img{
+   width: 150px;
+}
+.menus ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menus ul li{
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.align-items{
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+.home{
+    background: linear-gradient(360deg, #240660, #562e85);
+}
+.topImage img{
+    width: 700px;
+}
+.topContent h1{
+    font-size: 40px;
+    color: white;
+}
+.topContent p{
+    color: white;
+}
+.topContent button{
+    color: white;
+    background-color: var(--primary-color);
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.oneDiv{
+    padding: 0px 15px;
+}
+.divBorder {
+    padding: 10px;
+    border: 1px solid silver;
+}
+.contact form input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.contact .forms {
+    width: 100%;
+}
+
+/*  */
+footer{
+    background-color: var(--primary-color);
+    padding: 50px 0px;
+}
+.footerDiv img{
+    width: 200px;
+}
+.copyright{
+    background-color: #131313;
+    padding: 1px;
+    color: beige;
+}
