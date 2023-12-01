@@ -15,6 +15,7 @@ function Layouts() {
             <Header />
             <Routes>
                 <Route path='/' element={<Home/>} />
+                <Route path='/reactdemo' element={<Home/>} />
                 <Route path='/about' element={<About/>} />
                 <Route path='/services' element={<Services/>} />
                 <Route path='/blog' element={<Blog/>} />
